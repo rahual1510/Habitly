@@ -65,9 +65,8 @@ const HabitItem = ({ item, handleMarkCompletion, handleEditHabit, handleDeleteHa
         });
     };
 
-
     return (
-        <TouchableOpacity activeOpacity={0.5} onPress={showEditModal} style={[styles.habitItem, habitCompleted && styles.completedView]}>
+        <TouchableOpacity activeOpacity={0.5} onPress={showEditModal} style={[styles.habitItem, habitCompleted && !isEditing && styles.completedView]}>
             {isEditing ? (
                 <>
                     <TextInput

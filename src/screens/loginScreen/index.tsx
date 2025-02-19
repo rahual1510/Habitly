@@ -10,7 +10,7 @@ const LoginScreen = () => {
         callbacks: { onEmailChange, onPasswordChange, handleLogin, onFooterPress },
     } = useLogin();
 
-    const { styles } = useStyles();
+    const { styles, colors } = useStyles();
 
     return (
         <View style={styles.container}>
@@ -19,6 +19,7 @@ const LoginScreen = () => {
                 style={[styles.input, (emailError || signInError) ? styles.errorInput : null]}
                 placeholder="Email"
                 value={email}
+                placeholderTextColor={colors.placeholder}
                 onChangeText={onEmailChange}
                 autoCapitalize="none"
                 keyboardType="email-address"
@@ -29,6 +30,7 @@ const LoginScreen = () => {
                 placeholder="Password"
                 value={password}
                 secureTextEntry
+                placeholderTextColor={colors.placeholder}
                 onChangeText={onPasswordChange}
             />
             {passwordError ? <Text style={styles.errorText}>{passwordError}</Text> : null}

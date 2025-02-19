@@ -23,7 +23,7 @@
   - 7-day streak achievement notifications
 
 ### 🎨 Bonus Features
-- **Dark Mode** support
+- **Dark Mode** support 
 - **Streak Badges** (e.g., awarded for completing a 7-day streak)
 - **Smooth Animations** throughout the app
 
@@ -51,7 +51,7 @@ Habitly/
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/Habitly.git
+   git clone https://github.com/rahual1510/Habitly.git
    cd Habitly
    ```
 2. Install dependencies:
@@ -92,6 +92,23 @@ Habitly/
 
 ### ⚖️ Trade-offs
 - **Context API vs Redux:** Chose Context API for simplicity as Redux was not needed for this scale.
+
+---
+### 💡 Light theme
+
+<img src="./assets/light_one.png" alt="Dashboard Screen" width="180" height="400">
+<img src="./assets/light_two.png" alt="Dashboard Screen" width="180" height="400">
+<img src="./assets/light_four.png" alt="Dashboard Screen" width="180" height="400">
+<img src="./assets/light_three.png" alt="Dashboard Screen" width="180" height="400">
+
+---
+### 🌚 Dark theme
+
+<img src="./assets/dark_one.png" alt="Dashboard Screen" width="180" height="400">
+<img src="./assets/dark_two.png" alt="Dashboard Screen" width="180" height="400">
+<img src="./assets/dark_four.png" alt="Dashboard Screen" width="180" height="400">
+<img src="./assets/dark_three.png" alt="Dashboard Screen" width="180" height="400">
+
 
 
 ---

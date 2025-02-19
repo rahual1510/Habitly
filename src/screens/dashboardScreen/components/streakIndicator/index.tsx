@@ -28,10 +28,8 @@ const StreakIndicator = ({ streakCount, badges }: { streakCount: number, badges:
     <>
       {badgesView}
       <View style={styles.container}>
-        <View>
-          <Text style={styles.sectionTitle}>Weekly Streak</Text>
-          <Text style={styles.streakText}>{streakCount} Days</Text>
-        </View>
+        <Text style={styles.sectionTitle}>Weekly Streak</Text>
+        <Text style={styles.streakText}>{streakCount} Days</Text>
       </View>
     </>
   );

@@ -11,8 +11,8 @@ const useLogin = () => {
 
     const [loading, setLoading] = useState<boolean>(false);
     const [signup, setSignUp] = useState<boolean>(false);
-    const [email, setEmail] = useState<string>('dummy1@gmail.com');
-    const [password, setPassword] = useState<string>('123456');
+    const [email, setEmail] = useState<string>('');
+    const [password, setPassword] = useState<string>('');
     const [emailError, setEmailError] = useState<string>('');
     const [passwordError, setPasswordError] = useState<string>('');
     const [signInError, setSignInError] = useState<string>('');
